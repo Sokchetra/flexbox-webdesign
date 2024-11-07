@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <style>
+            .header{
+                margin-top: 20px;
+                box-shadow: 5px 3px #0077ea;
+                background: #1e90ff ;
+                color:white;
+                border-radius: 0.5em;
+                padding: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                display: flex;
+                flex-direction: row;
+               
+            }
+            .whole{
+                display: flex;   
+            }
+                
+            .main{
+                color:white;
+                background-color:#3cb371;
+                box-shadow:3px 5px #2f8d59;
+                border-radius:  0.5em;
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                width: 70%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                padding: 50px;
+                gap: 10px;
+                
+                
+            }
+            .item{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background-color:#2f8d59;
+                box-shadow: 3px 5px #226741;
+                border-radius:0.5em;
+                width: 150px; 
+                height: 150px; 
+                margin: 5px;
+                align-items: space-evenly;
+                
+                text-align: center;
+                
+                }
+            
+            .sidebar{
+                color:white;
+                background-color: #ff6347;
+                box-shadow:3px 5px #e02200;
+                margin-top: 20px;
+                border-radius: 0.5em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                padding:30px;
+                width: 25%;
+                
+                display:flex;
+                flex-direction: column;
+                margin-left: 30px;
+            }
+            .footer{
+                color: white;
+                background-color: #4169e1;
+                box-shadow: 3px 5px #1d44b8;
+                border-radius: 0.5em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                padding:25px;
+                margin-top: 20px;
+
+              
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <section class="header">header</section>
+            <section  class = "whole">
+                <section class="main">
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+               </section>
+            <section class="sidebar">sidebar</section>
+        </section>
+            <section class="footer">footer</section>
+
+        </div>   
+    </body>
+</html>
